@@ -1,2 +1,21 @@
 /* Style CSS */
+.main-nav {
+    /* background-color: blue; */
 
+.title-text {
+    color: black;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+.section{
+background-color: aqua;
+
+}
+
+footer {
+    text-align: right;
+    float: left;
+}
