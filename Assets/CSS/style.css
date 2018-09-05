@@ -8,12 +8,16 @@
     margin: 0px 0px 0px 0px;
     position: fixed;
     overflow: hidden;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Arial', 'Helvetica neue', Helvetica, sans-serif;
     font-size: 12px;
     background-color: #384957;
     color: #ffffff;
 }
-
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
 
 .heading-font {
     float: left;
@@ -33,18 +37,17 @@
 li {
 float: right;
 color: #ffffff;
-margin-right: 138px;
 font-size: 12px;
-/* position:relative; */
-width: 250px;
-height: 75px;
-padding-top: 20px;
+padding-top: 5px;
 text-align: center;
 }
 
-nav ul {
+ nav ul { 
     list-style: none;
+    margin-right: 138px;
 }
+
+
 li a {
     display: inline-block;
     color: white;
