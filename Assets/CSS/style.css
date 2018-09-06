@@ -1,5 +1,12 @@
 /* Style CSS */
- nav { 
+html {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+} 
+
+
+nav { 
     top: 0;
     margin-bottom: 25px; 
     width: 100%;
@@ -20,6 +27,9 @@
 body {
 background: url(/Assets/Images/light_grey_@2X.jpg);
 /* background-color: black; */
+overflow: hidden;
+margin: 0;
+padding: 0;
 }
 
 .heading-font {
@@ -50,16 +60,13 @@ text-align: center;
     margin-right: 138px;
 }
 
-
 li a {
     display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    widows: 75px;
 }
-
 
 section{
     /* display: none; */
@@ -71,9 +78,33 @@ section{
     border: #999;
     border-style: solid;
     border-width: 2px;
+
 }
 
-footer {
-    text-align: right;
-    float: left;
+
+
+footer {  
+    width: 100%;
+    height: 50px;
+    padding: 0;
+    /* margin: 0px 0px 0px 0px; */
+    /* position: fixed; */
+    overflow: hidden;
+    font-family: 'Arial', 'Helvetica neue', Helvetica, sans-serif;
+    font-size: 10px;
+    background-color: #384957;
+    color: #ffffff;
+    text-align: center;
+    border-style: solid;
+    border-color: aqua;
+    border-width: 3px 0px 0px 0px;
+}
+
+.hidden {
+    height: 35px;
+}
+.copyright {
+    margin: 0;
+    padding: 0;
+    height: 12px;
 }
